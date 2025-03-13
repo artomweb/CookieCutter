@@ -2,8 +2,8 @@
 import os
 import shutil
 
-mask_dir = "/scraping/accepted_masks"
-image_dir = "/scraping/accepted_images"
+mask_dir = "scraping/accepted_masks"
+image_dir = "scraping/accepted_images"
 
 dest_image_dir = "images"
 dest_mask_dir = "masks"

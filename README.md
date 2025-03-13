@@ -6,9 +6,9 @@ There is a subreddit I love called [r/whatismycookiecutter](https://www.reddit.c
 
 I started with a basic contour approach but the images all have different backgrounds, angles and lighting which makes this approach impossible. So I switched to training a model in PyTorch. I have annotated over 200 images of cookie cutters. Here are some outputs:
 
-![alt text](image.png)
+![alt text](ReadmeImages/image.png)
 
-![alt text](image-1.png)
+![alt text](ReadmeImages/image-1.png)
 
 The current secret source is a loss function that priorities smooth lines and closed loops. The network is based off of [this model](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/image_segmentation/semantic_segmentation_unet/train.py).
 
